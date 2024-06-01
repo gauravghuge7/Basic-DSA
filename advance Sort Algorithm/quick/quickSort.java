@@ -1,3 +1,4 @@
+
 class quickSort {
 
     static void display(int[] arr) {
@@ -15,6 +16,8 @@ class quickSort {
 
     static int partition (int[] arr, int st, int end) {
         int pivot = arr[st];
+
+        
 
         int count =0;
 
