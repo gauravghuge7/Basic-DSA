@@ -20,7 +20,7 @@ class removeChar {
     }
     
     public static String removeA2(String s) {
-        if(s.length() == 0) return "";
+        if(s.isEmpty()) return "";
 
         String smallAns = removeA2(s.substring(1));
 

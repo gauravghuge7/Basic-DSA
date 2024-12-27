@@ -22,6 +22,18 @@ public class ArrayLists {
     }
 
 
+    private static void print_indices(int[] arr, int index, int target) {
+
+        if(index == arr.length) return;
+
+        if(arr[index] == target) {
+            System.out.println(index);
+        }
+
+        print_indices(arr, index + 1, target);
+    }
+
+
     public static void main(String[] args) {
         
         int[] arr = {1,2,2,3,4,4,2,2,5,6,7,8,0,9,2};
