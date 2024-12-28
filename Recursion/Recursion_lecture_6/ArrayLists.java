@@ -8,10 +8,10 @@ public class ArrayLists {
             return new ArrayList<>();
         }
 
-        ArrayList<Integer> ans = new ArrayList<>();  
+        ArrayList<Integer> ans = new ArrayList<>();
 
         if(arr[idx] == target) {
-            ans.add(idx);
+//            ans.add(idx);
         }
         
         ArrayList<Integer> smallAns = allIndices(arr, n, target, idx+1);
