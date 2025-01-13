@@ -69,6 +69,9 @@ class ListDemo {
         list.add(15);
         list.add(10);
         list.add(11);
+
+
+        System.out.println(list.contains(234));
         
         
         // reverseArrayList(list);
@@ -78,9 +81,21 @@ class ListDemo {
         // Collection.reverse(list);
 
         // sorting the arrayList
-        Collection.sort(list);
+//        Collection.sort(list);
 
-        System.out.print(list+" ");
+//        System.out.print(list+" ");
+
+        List<String> ans = new ArrayList<>();
+
+        ans.add("gaurav");
+        ans.add("vaibhav");
+        ans.add("nilesh");
+        ans.add("nikhil");
+        ans.add("vaibhav nikam");
+
+
+        System.out.println(ans.contains("vaibhav"));
+
 
     }
 }

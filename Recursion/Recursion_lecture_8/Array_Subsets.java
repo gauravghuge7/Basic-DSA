@@ -19,6 +19,7 @@ public class Array_Subsets {
             return;
         }
 
+
         insert(nums, arr, sum + nums[i], i+1);
 
         insert(nums, arr, sum, i+1);
